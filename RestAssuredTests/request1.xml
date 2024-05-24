@@ -1,0 +1,813 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:v1="http://v1.ws.server.portal.healthgorilla.com/">
+	<soapenv:Header />
+	<soapenv:Body>
+		<v1:saveLaboratoryResult>
+			<login>testing.lab</login>
+			<password>Welcome1</password>
+			<doctor>
+                <externalId>21270503</externalId>
+                <npi>FAKE000104</npi>
+                <firstName>Eyob</firstName>
+                <lastName>Bizuneh</lastName>
+            </doctor>
+			<patient>
+                <dateOfBirth>
+                    <year>1990</year>
+                    <month>01</month>
+                    <day>01</day>
+                </dateOfBirth>
+                <firstName>Kiru</firstName>
+                <lastName>Paul</lastName>
+                <gender>male</gender>
+                    <address>
+                        <state>CA</state>
+                        <city>San Francisco</city>
+                        <address1>811 Webster St</address1>
+                        <zip>12098</zip>
+                     </address>
+            </patient>
+			<laboratoryResult>
+			   <reqNumber>1860</reqNumber>
+			   <externalId><![CDATA[dkftoijhgt888rrbtyoiutctutx11]]></externalId>
+				<highPriority>false</highPriority>
+				<name><![CDATA[Job test]]></name>
+				<abnormal>true</abnormal>
+				<status><![CDATA[P]]></status>
+				<observationGroups>
+					<id><![CDATA[2]]></id>
+					<groupCode><![CDATA[9302]]></groupCode>
+					<groupName><![CDATA[Comp Metabolic Panel]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					
+					<reportInLastDays><![CDATA[1]]></reportInLastDays>
+					
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[83]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Reference range listed for fasting levels. A fasting glucose of   > or = 100 mg/dL should be followed up according to the American  Diabetes Association.]]></comment>
+						<observation>
+							<observationId><![CDATA[GLU]]></observationId>
+							<observationName><![CDATA[Glucose]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[60-99]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[2]]></id>
+						<observationValue><![CDATA[141]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3110]]></observationId>
+							<observationName><![CDATA[Sodium]]></observationName>
+							<unit><![CDATA[mmol/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[135-146]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[3]]></id>
+						<observationValue><![CDATA[4.4]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3109]]></observationId>
+							<observationName><![CDATA[Potassium]]></observationName>
+							<unit><![CDATA[mmol/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[3.5-5.3]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[4]]></id>
+						<observationValue><![CDATA[105]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3128]]></observationId>
+							<observationName><![CDATA[Chloride]]></observationName>
+							<unit><![CDATA[mmol/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[98-110]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[5]]></id>
+						<observationValue><![CDATA[27]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3127]]></observationId>
+							<observationName><![CDATA[Carbon Dioxide]]></observationName>
+							<unit><![CDATA[mEq/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[21-31]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[6]]></id>
+						<observationValue><![CDATA[10]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3106]]></observationId>
+							<observationName><![CDATA[BUN]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[7.0-25.0]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[7]]></id>
+						<observationValue><![CDATA[0.8]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3108]]></observationId>
+							<observationName><![CDATA[Creatinine]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0.4-1.2]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[8]]></id>
+						<observationValue><![CDATA[12.5]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[BCRAT]]></observationId>
+							<observationName><![CDATA[BUN / Creatinine Ratio]]></observationName>
+							<unit><![CDATA[Ratio]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[10.0-20.0]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[9]]></id>
+						<observationValue><![CDATA[9.0]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3107]]></observationId>
+							<observationName><![CDATA[Calcium Total]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[8.5-10.5]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[10]]></id>
+						<observationValue><![CDATA[78]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3102]]></observationId>
+							<observationName><![CDATA[Alkaline Phosphatase]]></observationName>
+							<unit><![CDATA[U/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0-126]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[11]]></id>
+						<observationValue><![CDATA[7.7]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3113]]></observationId>
+							<observationName><![CDATA[Protein Total]]></observationName>
+							<unit><![CDATA[g/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[6.4-8.5]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[12]]></id>
+						<observationValue><![CDATA[4.6]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3101]]></observationId>
+							<observationName><![CDATA[Albumin]]></observationName>
+							<unit><![CDATA[g/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[3.5-4.8]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[13]]></id>
+						<observationValue><![CDATA[3.1]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[GLOB]]></observationId>
+							<observationName><![CDATA[Globulin]]></observationName>
+							<unit><![CDATA[g/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[2.0-3.9]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[14]]></id>
+						<observationValue><![CDATA[1.5]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[AGRAT]]></observationId>
+							<observationName><![CDATA[Albumin / Globulin Ratio]]></observationName>
+							<unit><![CDATA[Ratio]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[1.0-2.2]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[15]]></id>
+						<observationValue><![CDATA[1.0]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3105]]></observationId>
+							<observationName><![CDATA[Bilirubin Total]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0.2-1.3]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[16]]></id>
+						<observationValue><![CDATA[18]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3111]]></observationId>
+							<observationName><![CDATA[AST (SGOT )]]></observationName>
+							<unit><![CDATA[U/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0-40]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[17]]></id>
+						<observationValue><![CDATA[16]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3112]]></observationId>
+							<observationName><![CDATA[ALT (SGPT)]]></observationName>
+							<unit><![CDATA[U/L]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0-50]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[18]]></id>
+						<observationValue><![CDATA[>60]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<comment><![CDATA[For patients of African descent, the estimated GFR must be multiplied
+by 1.21. A persistently reduced eGFR (<60 mL/min/1.73m2)may signify
+chronic kidney disease. The eGFR calculation is NOT valid for  patients under the age of 18 years.]]></comment>
+						<observation>
+							<observationId><![CDATA[3108G]]></observationId>
+							<observationName><![CDATA[Estimated GFR (eGFR)]]></observationName>
+							<unit><![CDATA[mL/min]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[>=60]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[3]]></id>
+					<groupCode><![CDATA[INDEX]]></groupCode>
+					<groupName><![CDATA[Specimen Integrity]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[4]]></id>
+					<groupCode><![CDATA[9305]]></groupCode>
+					<groupName><![CDATA[Lipid Panel]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[206]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<abnormalType><![CDATA[H]]></abnormalType>
+						<observation>
+							<observationId><![CDATA[3117]]></observationId>
+							<observationName><![CDATA[Total Cholesterol]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[150-200]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[2]]></id>
+						<observationValue><![CDATA[100]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3124]]></observationId>
+							<observationName><![CDATA[Triglycerides]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<150]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[3]]></id>
+						<observationValue><![CDATA[62]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3120]]></observationId>
+							<observationName><![CDATA[HDL Chol]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[>50]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[4]]></id>
+						<observationValue><![CDATA[124]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3123]]></observationId>
+							<observationName><![CDATA[LDL Chol]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<130]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[5]]></id>
+						<observationValue><![CDATA[20]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[3139]]></observationId>
+							<observationName><![CDATA[VLDL]]></observationName>
+							<unit><![CDATA[mg/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<30]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[6]]></id>
+						<observationValue><![CDATA[3.3]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:11:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Adult Treatment Panel III Classification 2004:
+CHOL <200 Desirable    200-239 Borderline High  >239 High
+TRIG <150 Normal       150-199 Borderline High  > 200 High
+HDL  <40 Increased Risk 45-59 Desirable         >59 Decreased Risk
+LDL  <70 Optimal(For Very High Risk Individual) <100 Optimal      100-129 Desirable 130-159 Borderline High  >159 High
+VLDL <32 Desirable
+CHOL/HDL Ratio: 1/2 Av Risk (Male  3.4) (Female 3.3)                     Av Risk (Male  5.0) (Female 4.4)                  2x Av Risk (Male  9.6) (Female 7.1)                  3x Av risk (Male 24.0) (Female 11.0)    ]]></comment>
+						<observation>
+							<observationId><![CDATA[3131]]></observationId>
+							<observationName><![CDATA[Cholesterol / HDL Ratio]]></observationName>
+							<unit><![CDATA[Ratio]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[5]]></id>
+					<groupCode><![CDATA[4105]]></groupCode>
+					<groupName><![CDATA[T4 Free]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[1.06]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Hunter Laboratories has changed methodologies for the assay  effective May 24, 2011.  Please note change in reference range.]]></comment>
+						<observation>
+							<observationId><![CDATA[4105]]></observationId>
+							<observationName><![CDATA[T4 Free]]></observationName>
+							<unit><![CDATA[ng/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0.89-1.76]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[6]]></id>
+					<groupCode><![CDATA[4106]]></groupCode>
+					<groupName><![CDATA[TSH (Ultrasensitive)]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[1.10]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[4106]]></observationId>
+							<observationName><![CDATA[TSH (Ultrasensitive)]]></observationName>
+							<unit><![CDATA[uIU/ml]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0.34-4.00]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[7]]></id>
+					<groupCode><![CDATA[4111]]></groupCode>
+					<groupName><![CDATA[Thyroid Autoantibodies Panel]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[<20.0]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:13:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[4109]]></observationId>
+							<observationName><![CDATA[Thyroglobulin Autoabs]]></observationName>
+							<unit><![CDATA[IU/mL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<40]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[2]]></id>
+						<observationValue><![CDATA[<10.0]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:13:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[4110]]></observationId>
+							<observationName><![CDATA[Thyroid Peroxidase Autoabs]]></observationName>
+							<unit><![CDATA[IU/mL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<35]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[8]]></id>
+					<groupCode><![CDATA[4204]]></groupCode>
+					<groupName><![CDATA[FSH]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[3.8]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Normally Menstruating:
+Follicular Phase           2.5-10.2
+Midcycle Peak              3.4-33.4
+Luteal Phase               1.5-9.1
+Pregnant                  <0.3
+Postmenopausal            23.0-116.3
+Hunter Laboratories has changed methodologies for the assay  effective May 24, 2011.  Please note change in reference range.]]></comment>
+						<observation>
+							<observationId><![CDATA[4204]]></observationId>
+							<observationName><![CDATA[FSH]]></observationName>
+							<unit><![CDATA[mIU/mL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[9]]></id>
+					<groupCode><![CDATA[4205]]></groupCode>
+					<groupName><![CDATA[LH]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[7.1]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Reference Ranges:
+Females:
+Normally Menstruating
+Follicular phase          1.9-12.5
+Midcycle peak             8.7-76.3
+Luteal phase              0.5-16.9
+Pregnant                 <0.1-1.5
+Postmenopausal           15.9-54.0
+Contraceptives            0.7-5.6
+Hunter Laboratories has changed methodologies for the assay  effective May 24, 2011.  Please note change in reference range.]]></comment>
+						<observation>
+							<observationId><![CDATA[4205]]></observationId>
+							<observationName><![CDATA[LH]]></observationName>
+							<unit><![CDATA[mIU/mL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[10]]></id>
+					<groupCode><![CDATA[4206]]></groupCode>
+					<groupName><![CDATA[Progesterone]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[0.37]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Reference Ranges
+Normal Females:
+Follicular               0.00-1.40  Luteal phase:            3.34-25.56
+Mid luteal phase         4.44-28.03
+Postmenopausal females   0.00-0.73
+Hunter Laboratories has changed methodologies for the assay  effective May 24, 2011.  Please note change in reference range.]]></comment>
+						<observation>
+							<observationId><![CDATA[4206]]></observationId>
+							<observationName><![CDATA[Progesterone]]></observationName>
+							<unit><![CDATA[ng/mL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[11]]></id>
+					<groupCode><![CDATA[4207]]></groupCode>
+					<groupName><![CDATA[Prolactin]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[9.8]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<comment><![CDATA[Hunter Laboratories has changed methodologies for the assay  effective May 24, 2011.  Please note change in reference range.]]></comment>
+						<observation>
+							<observationId><![CDATA[4207]]></observationId>
+							<observationName><![CDATA[Prolactin]]></observationName>
+							<unit><![CDATA[ng/mL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[3.34-26.72]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[12]]></id>
+					<groupCode><![CDATA[4220]]></groupCode>
+					<groupName><![CDATA[LH/FSH Ratio]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[1.87]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:32:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[4220]]></observationId>
+							<observationName><![CDATA[LH/FSH Ratio]]></observationName>
+							<valueType><![CDATA[NM]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[13]]></id>
+					<groupCode><![CDATA[A81058]]></groupCode>
+					<groupName><![CDATA[Testosterone, Females or Children]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[PENDING]]></observationValue>
+						<observation>
+							<observationId><![CDATA[A81058]]></observationId>
+							<observationName><![CDATA[Testosterone, Females or Children]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[14]]></id>
+					<groupCode><![CDATA[ETOTE]]></groupCode>
+					<groupName><![CDATA[Estrogens, Total]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[PENDING]]></observationValue>
+						<observation>
+							<observationId><![CDATA[XTOTE]]></observationId>
+							<observationName><![CDATA[Estrogens, Total]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[15]]></id>
+					<groupCode><![CDATA[4408]]></groupCode>
+					<groupName><![CDATA[Helicobacter pylori Ab, IgG]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[>8.0]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T23:31:00]]></dateTimeOfObservation>
+						<abnormalType><![CDATA[H]]></abnormalType>
+						<comment><![CDATA[Interpretation:   Negative <0.90
+Indeterminate 0.90-1.09
+Positive >1.09    Patients with "Indeterminate" results should be followed up with  repeat testing after two weeks.]]></comment>
+						<observation>
+							<observationId><![CDATA[4408]]></observationId>
+							<observationName><![CDATA[H. Pylori IgG]]></observationName>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<0.90]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[16]]></id>
+					<groupCode><![CDATA[3501]]></groupCode>
+					<groupName><![CDATA[Urinalysis]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-20T04:01:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[Yellow]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[COLOR]]></observationId>
+							<observationName><![CDATA[Color]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[2]]></id>
+						<observationValue><![CDATA[Clear]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[APPEAR]]></observationId>
+							<observationName><![CDATA[Appearance]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Clear]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[3]]></id>
+						<observationValue><![CDATA[1.025]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UASPGR]]></observationId>
+							<observationName><![CDATA[Specific Gravity]]></observationName>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[1.010-1.030]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[4]]></id>
+						<observationValue><![CDATA[6.0]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UAPH]]></observationId>
+							<observationName><![CDATA[pH]]></observationName>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[5.0-8.0]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[5]]></id>
+						<observationValue><![CDATA[Negative]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UAGLU]]></observationId>
+							<observationName><![CDATA[Glucose]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[6]]></id>
+						<observationValue><![CDATA[Negative]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UAKETO]]></observationId>
+							<observationName><![CDATA[Ketones]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[7]]></id>
+						<observationValue><![CDATA[Negative]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UAPROT]]></observationId>
+							<observationName><![CDATA[Protein]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[8]]></id>
+						<observationValue><![CDATA[Negative]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UABLD]]></observationId>
+							<observationName><![CDATA[Blood]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[9]]></id>
+						<observationValue><![CDATA[TRACE]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<abnormalType><![CDATA[A]]></abnormalType>
+						<observation>
+							<observationId><![CDATA[UALEUK]]></observationId>
+							<observationName><![CDATA[Leukocyte-Esterase]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[10]]></id>
+						<observationValue><![CDATA[Negative]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UANITR]]></observationId>
+							<observationName><![CDATA[Nitrite]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[11]]></id>
+						<observationValue><![CDATA[Negative]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UABILI]]></observationId>
+							<observationName><![CDATA[Bilirubin]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+							<range><![CDATA[Negative]]></range>
+						</observation>
+					</observationResults>
+					<observationResults>
+						<id><![CDATA[12]]></id>
+						<observationValue><![CDATA[0.2]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-19T22:15:00]]></dateTimeOfObservation>
+						<observation>
+							<observationId><![CDATA[UAUROB]]></observationId>
+							<observationName><![CDATA[Urobilinogen]]></observationName>
+							<unit><![CDATA[EU/dL]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[0.2-1]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[17]]></id>
+					<groupCode><![CDATA[A50995]]></groupCode>
+					<groupName><![CDATA[HELICOBACTER PYLORI Ab, IgA]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[PENDING]]></observationValue>
+						<observation>
+							<observationId><![CDATA[A50995]]></observationId>
+							<observationName><![CDATA[Helicobacter Pylori Ab, Iga]]></observationName>
+							<valueType><![CDATA[ST]]></valueType>
+						</observation>
+					</observationResults>
+				</observationGroups>
+				<observationGroups>
+					<id><![CDATA[18]]></id>
+					<groupCode><![CDATA[A98392]]></groupCode>
+					<groupName><![CDATA[HELICOBACTER PYLORI Ab, IgM]]></groupName>
+					<requestedDateTime><![CDATA[2012-03-19T23:20:00]]></requestedDateTime>
+					<observationDateTime><![CDATA[2012-03-19T17:55:00]]></observationDateTime>
+					<observationEndDateTime><![CDATA[2012-03-21T13:41:00]]></observationEndDateTime>
+					<reportDateTime><![CDATA[2012-03-21T13:41:00]]></reportDateTime>
+					<observationResults>
+						<id><![CDATA[1]]></id>
+						<observationValue><![CDATA[0.5]]></observationValue>
+						<dateTimeOfObservation><![CDATA[2012-03-21T13:40:00]]></dateTimeOfObservation>
+						<comment><![CDATA[INTERPRETIVE INFORMATION:  Helicobacter Pylori Ab, IgM     0.8 EV or Less .......... Negative: No significant level                             of IgM antibody to H.pylori                             detected.   0.9-1.1 EV .............. Equivocal: Repeat testing in                             10-14 days may be helpful.   1.2 EV or Greater ....... Positive: IgM antibody to                             H. pylori detected, suggestive                             of an active infection.   Gastric colonization by Helicobacter pylori has been
+implicated in the development of some cases of gastritis
+and peptic or duodenal ulcer. The clinical utility of H.
+pylori antibody, IgM measurement has not been clearly
+established.   For additional information, refer to Helicobacter pylori
+topic at arupconsult.com]]></comment>
+						<observation>
+							<observationId><![CDATA[A98392]]></observationId>
+							<observationName><![CDATA[Helicobacter Pylori Ab, Igm]]></observationName>
+							<unit><![CDATA[EV]]></unit>
+							<valueType><![CDATA[NM]]></valueType>
+							<range><![CDATA[<=0.8]]></range>
+						</observation>
+					</observationResults>
+				</observationGroups>
+			</laboratoryResult>
+		</v1:saveLaboratoryResult>
+	</soapenv:Body>
+</soapenv:Envelope>
