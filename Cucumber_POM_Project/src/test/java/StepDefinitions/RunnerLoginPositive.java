@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\Users\\Eyob\\eclipse-workspace\\Cucumber_POM_Project\\Features",glue= {"StepDefinitions"},
 monochrome = true,
-plugin={"pretty","junit:target/JUnitReports/report.xml","json:target/JSONReports/report.json","html:target/HtmlReports.html"})
+plugin={"pretty","json:target/JSONReports/report.json"})
 public class RunnerLoginPositive {
 
 }
